@@ -1,0 +1,66 @@
+
+.logo{
+    min-width: 1200px;
+    height: 108px;
+    background-color: #0b9bff;
+}
+
+.logo_title{
+    width: 1200px;
+    display: flex;
+    position: relative;
+    margin: 0 auto;
+}
+.logo_left img{
+    width: 300px;
+    height: 150px;
+    border-radius: 10%;
+}
+ul{
+    list-style-type: none;
+}
+.logo_right ul{
+    display: flex;
+    list-style-type: none;
+
+}
+.logo_left li:nth-child(2){
+    list-style-type: none;
+    color: #fff367;
+    font-size: 50px;
+    font-family: "Weibei SC";
+    margin-top: 10px;
+}
+.logo_right .menu{
+    width: 500px;
+    display: flex;
+    margin-top: 50px;
+}
+.logo_left .menu{
+    width: 700px;
+    display: flex;
+}
+.logo_right li{
+    margin-right: 30px;
+    border-radius: 30px;
+    width: 150px;
+    height: 30px;
+    background-color: #f6ffe0;
+    text-align: center;
+    line-height: 30px;
+}
+
+.logo_right li:hover{
+    background-color: #fff367;
+}
+.logo_right a:link{
+    text-decoration: none;
+}
+.logo_right a:visited {
+    color: #76797c;
+    text-decoration: none;
+}
+.logo_right a:hover {
+    color: #349a96;
+    text-decoration: none;
+}

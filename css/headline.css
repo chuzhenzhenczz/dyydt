@@ -1,0 +1,28 @@
+.content img{
+    width: 200px;
+    height: 100px;
+}
+.content li{
+    list-style-type: none;
+}
+.content{
+    margin: 0 auto;
+    max-width: 800px;
+    text-align: center;
+}
+.content .nav h2{
+
+    background-color: #7beae5;
+}
+.content .contentView{
+    width: 700px;
+    height: 100px;
+    /*background-color: #007aff;*/
+    margin-bottom: 10px;
+}
+.content .left{
+    float: left;
+}
+.content .right{
+    float: right;
+}

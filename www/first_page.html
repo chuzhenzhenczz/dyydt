@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+    <link rel="stylesheet" href="../css/first_page.css">
+    <link rel="stylesheet" href="../css/nav.css">
+    <link rel="stylesheet" href="../css/lunbo.css">
+    <link rel="stylesheet" href="../css/first_content.css">
+    <link rel="stylesheet" href="../css/headline.css">
+</head>
+<body>
+<header>
+    <div class="nav_first">
+        <div class="nav_top">
+            <div class="nav_top_one">
+                <ul class="nav_top_left">
+                    <li><a href="">欢迎访问"党员一点通"</a></li>
+                    <li><a href="">设为首页</a></li>
+                    <li><a href="">移动客户端</a></li>
+                </ul>
+            </div>
+            <div class="nav_top_two">
+                <ul class="nav_top_right">
+                    <li><input type="text" placeholder="请输入..."><button class="sosuo">搜索</button></li>
+                    <li><a href="login.html">党员个人登录</a></li>
+                    <li><a href="">我要投稿</a></li>
+                    <li><a href="">论坛留言</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="logo">
+        <div class="logo_title">
+            <div class="logo_left">
+                <ul class="menu">
+                    <li><img src="../img/logo2.png" alt=""></li>
+                    <li>党员一点通</li>
+                </ul>
+            </div>
+            <div class="logo_right">
+                <ul class="menu">
+                    <li><a href="">档案管理</a></li>
+                    <li><a href="">在线学习</a></li>
+                    <li><a href="">新闻在线</a></li>
+                    <li><a href="">党员论坛</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</header>
+<section>
+    <div id="box">
+        <div id="content">
+            <img src="../images/1.jpg" alt="" />
+            <img src="../images/2.jpg" alt="" />
+            <img src="../images/3.jpg" alt="" />
+            <img src="../images/1.jpg" alt="" />
+        </div>
+        <ul>
+            <li><span></span></li>
+            <li><span></span></li>
+            <li><span></span></li>
+        </ul>
+    </div>
+    <div class="box_m">
+        <div class="box_p">
+            <p>党员一点通</p>
+        </div>
+    </div>
+
+    <div class="content_new">
+        <div class="new_left" ng-app="myApp">
+         <ng-view></ng-view>
+        </div>
+        <div class="new_right">
+
+        </div>
+
+    </div>
+</section>
+
+</body>
+
+</html>
+<script src="../lib/angular.js"></script>
+<script src="../js/lunbo.js"></script>
+<script src="../js/tween.js"></script>
+<script src="../lib/angular-route.js"></script>
+<script src="../js/app.js"></script>
+<script src="../js/detailController.js"></script>
+<script src="../js/headlineController.js"></script>
+

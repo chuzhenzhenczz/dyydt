@@ -1,0 +1,18 @@
+<div class="content">
+    <div class="nav">
+        <h2>头条新闻</h2>
+    </div>
+    <ul>
+        <li ng-click="mine.goToDetailView(news.postid)" ng-repeat="news in mine.newsList | orderBy : news.priority">
+            <div class="contentView">
+                <div class="left">
+                    <img ng-src="{{news.imgsrc}}" alt="">
+                </div>
+                <div class="right">
+                   <h3>{{news.title}}</h3>
+                   <p><span>{{news.ptime}}</span><span>{{replyCount}}回复</span></p>
+                </div>
+            </div>
+        </li>
+    </ul>
+</div>
