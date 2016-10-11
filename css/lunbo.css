@@ -18,8 +18,6 @@ section{
     position: relative;
     margin: -500px auto 0;
     animation: Demo1 5s linear 1s forwards;
-    /*z-index: -1;*/
-
 }
 @keyframes Demo1{
     0%{
@@ -28,7 +26,6 @@ section{
     10%{
     }
     20%{
-        /*background:rgba(186,186,186,0.6);*/
     }
     50%{
         background:rgba(186,186,186,0.2);
@@ -44,7 +41,6 @@ section{
     font-size: 0px;
     font-family:"Weibei SC";
     animation: Demo2 5s linear 1s forwards;
-    /*z-index: 9;*/
 }
 @keyframes Demo2{
     0%{
@@ -112,21 +108,4 @@ section{
     background: #53acdd;
     border-radius: 20px;
 }
-@-webkit-keyframes switch-up {
-    0% , 10% {
-        -webkit-transform: scale(1) rotatex(0);
-        transform: scale(1) rotatex(0);
-    }
-    40% {
-        -webkit-transform: scale(0.70711) translatez(60px) rotatex(0);
-        transform: scale(0.70711) translatez(60px) rotatex(0);
-    }
-    70% {
-        -webkit-transform: scale(0.70711) translatez(60px) rotatex(90deg);
-        transform: scale(0.70711) translatez(60px) rotatex(90deg);
-    }
-    100% {
-        -webkit-transform: scale(1) rotatex(90deg);
-        transform: scale(1) rotatex(90deg);
-    }
-}
+
