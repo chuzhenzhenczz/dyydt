@@ -11,7 +11,12 @@
     /*position: relative;*/
 
 }
-
+.title_news{
+    position: relative;
+    width: 1200px;
+    height: 70px;
+    margin: 10px auto;
+}
 .nav_top{
     width: 1200px;
     display: flex;
